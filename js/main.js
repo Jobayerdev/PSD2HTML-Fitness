@@ -7,7 +7,8 @@ $(document).ready(function () {
 });
 // Animation
 function animationClass() {
-    $("section").find("*").addClass("wow slideInUp").attr('data-wow-delay', '0.3s');
+    $("section").find("*").addClass("wow slideInUp").attr('data-wow-delay', '0.4s');
+    $("section").find("*").attr('data-wow-duration', '1.5s');
 }
 
 // Owl Carousel Function
